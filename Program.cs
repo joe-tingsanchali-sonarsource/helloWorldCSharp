@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp1
 {
@@ -8,6 +8,12 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("Hello World2222");
+
+            int a = 5;
+            int b = 0;
+            // Deliberate divide-by-zero bug for testing
+            int c = a / b;
+            Console.WriteLine($"Result: {c}");
         }
     }
 }
